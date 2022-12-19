@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: adventi;
+  src: url(../assests/adventi.ttf);
+}
+
+/* body {
+}
+ */
+header {
+  display: flex;
+  height: 15rem;
+  background-image: url(../assests/AdventureTimeLogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+  border: solid yellow 4px;
+}
+
+/* .innerHeader {
+  background-image: url(../assests/AdventureTimeLogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: solid red 4px;
+  width: 100%;
+  height: 100%;
+} */
+
+main {
+  background-image: url("../assests/adventureTime.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 5rem 2rem;
+  /*  font-family: adventi; */
+}
+
+/* h1 {
+  font-size: 3.8rem;
+}
+ */
+
+.adventureCards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin-bottom: 4%;
+}
+
+.btn {
+  background-color: #cc92f8;
+  border: solid #cc92f8;
+}
+
+/* footer {
+  height: 5rem;
+  display: flex;
+} */
+
+.colorOne {
+  width: 17%;
+  background-color: #08a1cb;
+}
+
+.colorTwo {
+  width: 16%;
+  background-color: #fab819;
+}
+
+.colorThree {
+  width: 17%;
+  background-color: #fe61cd;
+}
+
+.colorFour {
+  width: 17%;
+  background-color: #62c4ad;
+}
+
+.colorFive {
+  width: 17%;
+  background-color: #940f06;
+}
+
+.colorSix {
+  width: 16%;
+  background-color: #cc92f8;
+}
