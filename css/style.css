@@ -5,49 +5,65 @@
 }
 
 @font-face {
-  font-family: adventi;
-  src: url(../assests/adventi.ttf);
+  font-family: Adventure Time;
+  src: url(../assests/Adventure\ Time.ttf);
 }
 
-/* body {
-}
- */
-header {
-  display: flex;
-  height: 15rem;
-  background-image: url(../assests/AdventureTimeLogo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  justify-content: center;
-  align-items: center;
-  border: solid yellow 4px;
+@font-face {
+  font-family: Adventure Time Logo;
+  src: url(../assests/Adventure\ Time\ Logo.ttf);
 }
 
-/* .innerHeader {
-  background-image: url(../assests/AdventureTimeLogo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border: solid red 4px;
-  width: 100%;
-  height: 100%;
-} */
-
-main {
+body {
   background-image: url("../assests/adventureTime.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 5rem 2rem;
-  /*  font-family: adventi; */
 }
 
-/* h1 {
-  font-size: 3.8rem;
+header {
+  height: 15rem;
 }
- */
+
+.headerContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.lump {
+  padding-top: 2rem;
+}
+
+main {
+  padding: 0 2rem;
+}
+
+h1 {
+  font-size: 3.8rem;
+  font-family: Adventure Time Logo;
+  color: #dcdcdc;
+  text-align: center;
+}
+
+h3 {
+  font-family: Adventure Time Logo;
+  color: #dcdcdc;
+  text-align: center;
+}
+
+span {
+  font-family: Adventure Time;
+}
+
+a {
+  text-decoration-line: none;
+  border: solid black 2px;
+  border-radius: 20px;
+  color: black;
+  font-weight: 500;
+  padding: 0.5rem;
+}
 
 .adventureCards {
   display: flex;
@@ -57,45 +73,52 @@ main {
 }
 
 .card {
-  margin-bottom: 4%;
+  margin: 4% 5%;
+  color: black;
+  background-color: #dcdcdc;
 }
 
-.btn {
-  background-color: #cc92f8;
-  border: solid #cc92f8;
-}
-
-/* footer {
-  height: 5rem;
+.card-body {
   display: flex;
-} */
-
-.colorOne {
-  width: 17%;
-  background-color: #08a1cb;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.colorTwo {
-  width: 16%;
-  background-color: #fab819;
+.title {
+  color: #08a1cb;
+  font-weight: 900;
 }
 
-.colorThree {
-  width: 17%;
-  background-color: #fe61cd;
+.season {
+  color: #fe61cd;
+  font-weight: 900;
 }
 
-.colorFour {
-  width: 17%;
-  background-color: #62c4ad;
+.written {
+  color: #fab819;
+  font-weight: bold;
 }
 
-.colorFive {
-  width: 17%;
-  background-color: #940f06;
+.card-text {
+  color: #940f06;
+  font-weight: bold;
 }
 
-.colorSix {
-  width: 16%;
-  background-color: #cc92f8;
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 5rem;
+  font-family: Adventure Time Logo;
+  color: #dcdcdc;
+  text-align: center;
+  align-items: center;
+}
+
+.bemo {
+  margin-left: 2rem;
+}
+
+.copy {
+  margin-left: 1.5rem;
 }

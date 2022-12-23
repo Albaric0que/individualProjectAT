@@ -22,11 +22,10 @@ fetchAdventureJson().then((info) => {
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="${img}" alt="Card image cap">
         <div class="card-body">
-          <h3 class="card-title">${title}</h3>
-          <h5 class="card-title">Season 3 episode ${episode}</h5>
-          <h5 class="card-title">${panel}</h5>
+          <h3 class="card-title title">${title}</h3>
+          <h5 class="card-title season">Season 3 episode ${episode}</h5>
+          <h5 class="card-title written"> Written by ${panel}</h5>
           <p class="card-text">${sinop}</p>
-          <a href="#" class="btn btn-primary">Watch Episode</a>
         </div>
       </div>
     `;
