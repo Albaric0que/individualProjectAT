@@ -5,7 +5,7 @@
 
 <h2>2. Developed by</h2>
 
-<p>Alba Rus</p>
+[Alba Rus](https://github.com/Albaric0que/)
 
 <h2>3. Project Preview</h2>
 
