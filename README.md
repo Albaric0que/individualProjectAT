@@ -17,8 +17,8 @@
 </ul>
 
 <h2 style>4. Final Design</h2>
-<img src="https://user-images.githubusercontent.com/102925388/209415646-2f2e6676-b297-4c68-a35e-261c96b4132b.png" width="50%">
-<img src="https://user-images.githubusercontent.com/102925388/209415650-a5b89100-da8b-4faf-8a3e-7faafb084a0b.png" width="50%">
+<img src="https://user-images.githubusercontent.com/102925388/209415646-2f2e6676-b297-4c68-a35e-261c96b4132b.png" width="100%">
+<img src="https://user-images.githubusercontent.com/102925388/209415650-a5b89100-da8b-4faf-8a3e-7faafb084a0b.png" width="100%">
 
 <h2>5. Stacks</h2>
 
